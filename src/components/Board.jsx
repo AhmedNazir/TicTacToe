@@ -188,7 +188,7 @@ function Board() {
       <div>{isWin && <WinnerCard winner={checkIsWin(values)} />}</div>
       <div>{isDraw && <DrawCard />}</div>
 
-      <div className="flex flex-row justify-center gap-60">
+      <div className="flex flex-row justify-center gap-60 flex-wrap">
         {/* Board */}
         <div>
           <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
